@@ -1,0 +1,1 @@
+package com.cni.evidence; import org.springframework.data.jpa.repository.JpaRepository; import java.util.*; public interface EvidenceRepository extends JpaRepository<EvidenceFile,UUID>{List<EvidenceFile> findByInvestigationCase_IdOrderByCreatedAtDesc(UUID caseId);}

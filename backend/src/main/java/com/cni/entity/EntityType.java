@@ -1,0 +1,2 @@
+package com.cni.entity;
+public enum EntityType { PERSON, PHONE, EMAIL, VEHICLE, LOCATION, ORGANIZATION, BANK_ACCOUNT, DOCUMENT, EVENT }
