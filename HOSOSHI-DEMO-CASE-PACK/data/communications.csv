@@ -1,0 +1,7 @@
+timestamp,from_entity,to_entity,channel,duration_seconds,source_reference,note
+2026-08-12T08:20:00Z,P1,PH1,VOICE,214,CDR-001,Synthetic call record
+2026-08-12T09:10:00Z,P2,PH2,VOICE,88,CDR-002,Synthetic call record
+2026-08-13T10:15:00Z,P3,PH2,SMS,0,CDR-002,Synthetic shared-contact signal
+2026-08-14T11:30:00Z,P1,P2,VOICE,322,CDR-003,Synthetic contact event
+2026-08-14T12:05:00Z,P2,P3,VOICE,177,CDR-004,Synthetic contact event
+2026-08-15T15:45:00Z,P3,P4,VOICE,61,CDR-005,Synthetic contact event

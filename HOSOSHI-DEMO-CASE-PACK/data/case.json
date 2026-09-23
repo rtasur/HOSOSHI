@@ -1,0 +1,9 @@
+{
+  "caseNumber": "CNI-2026-0091",
+  "title": "Operation Silent Harbor",
+  "description": "Synthetic training investigation used to verify case management, assignment, evidence, entity registry, relationship mapping, timeline, reports, audit logging, and Neo4j graph projection.",
+  "category": "NETWORK INTELLIGENCE",
+  "priority": "HIGH",
+  "status": "OPEN",
+  "classification": "RESTRICTED"
+}

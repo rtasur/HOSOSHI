@@ -1,0 +1,7 @@
+DRAFT ANALYST OBSERVATION
+Case: CNI-2026-0091
+
+The synthetic graph contains a shared phone node, repeated communications, a vehicle/location pair, and organization/financial links. These patterns are useful for verifying graph rendering, timeline ordering, filtering, and case-level access control.
+
+Required handling:
+All findings require human review. Do not treat graph connectivity or confidence scores as determinations of guilt.

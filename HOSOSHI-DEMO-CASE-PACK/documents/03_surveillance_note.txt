@@ -1,0 +1,7 @@
+SYNTHETIC SURVEILLANCE NOTE
+Document ID: SURV-003
+Case: CNI-2026-0091
+
+At 17:20 UTC on 2026-08-15, synthetic vehicle MP09 AB 4321 was observed near Indore Central Depot. The observation is associated with Arjun Mehta in the synthetic entity registry.
+
+The observation should be represented as a relationship with source reference SURV-003 and reviewed by an authorized investigator.

@@ -1,0 +1,4 @@
+# Keep source files normalized in Git; Git for Windows can check out command scripts as CRLF.
+* text=auto
+*.cmd text eol=crlf
+*.bat text eol=crlf

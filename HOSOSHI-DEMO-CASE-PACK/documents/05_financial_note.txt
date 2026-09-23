@@ -1,0 +1,5 @@
+SYNTHETIC FINANCIAL INTELLIGENCE NOTE
+Document ID: FIN-001
+Case: CNI-2026-0091
+
+TEST-ACCT-778812 is a fictional financial identifier. Synthetic records include transactions to and from this identifier. Amounts are fabricated for testing and have no connection to real accounts or people.

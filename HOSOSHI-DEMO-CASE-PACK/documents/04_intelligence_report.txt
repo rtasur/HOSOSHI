@@ -1,0 +1,7 @@
+SYNTHETIC INTELLIGENCE REPORT
+Document ID: DOC-003
+Case: CNI-2026-0091
+
+Harbor Logistics Pvt Ltd is a fictional organization used to test organization-to-person and organization-to-financial relationships.
+
+Synthetic observations associate the organization with Arjun Mehta and Vikram Joshi. These are analytical leads generated for testing; they are not conclusions about real-world behavior.

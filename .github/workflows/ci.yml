@@ -1,0 +1,50 @@
+name: HOSOSHI CI
+
+on:
+  push:
+    branches: ["main", "develop"]
+  pull_request:
+    branches: ["main", "develop"]
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify repository hygiene
+        shell: bash
+        run: |
+          test ! -f .env
+          test ! -f backend/.env
+          test ! -f frontend/.env
+          test ! -d frontend/node_modules
+          test ! -d frontend/dist
+          test ! -d backend/target
+          test ! -f frontend/tsconfig.app.tsbuildinfo
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+
+      - name: Frontend install
+        working-directory: frontend
+        run: npm ci --no-audit --no-fund
+
+      - name: Frontend build
+        working-directory: frontend
+        run: npm run build
+
+      - name: Backend tests
+        working-directory: backend
+        run: mvn -B test
+
+      - name: Validate Compose
+        run: docker compose config
+
+      - name: Build images
+        run: docker compose build --progress=plain

@@ -1,0 +1,4 @@
+timestamp,source_entity,target_entity,amount,currency,transaction_type,source_reference,note
+2026-08-17T13:22:00Z,P2,B1,245000,INR,INBOUND,FIN-001,Synthetic test transaction
+2026-08-17T13:40:00Z,B1,O1,180000,INR,OUTBOUND,FIN-002,Synthetic test transaction
+2026-08-18T09:25:00Z,O1,P4,65000,INR,PAYMENT,FIN-003,Synthetic test transaction

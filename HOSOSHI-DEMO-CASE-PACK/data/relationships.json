@@ -1,0 +1,15 @@
+[
+  {"from":"P1","to":"PH1","type":"USES","confidence":0.98,"sourceReference":"CDR-001","observedAt":"2026-08-12T08:20:00Z"},
+  {"from":"P2","to":"PH2","type":"USES","confidence":0.94,"sourceReference":"CDR-002","observedAt":"2026-08-12T09:10:00Z"},
+  {"from":"P3","to":"PH2","type":"USES","confidence":0.91,"sourceReference":"CDR-002","observedAt":"2026-08-13T10:15:00Z"},
+  {"from":"P1","to":"P2","type":"CONTACTED","confidence":0.96,"sourceReference":"CDR-003","observedAt":"2026-08-14T11:30:00Z"},
+  {"from":"P2","to":"P3","type":"CONTACTED","confidence":0.93,"sourceReference":"CDR-004","observedAt":"2026-08-14T12:05:00Z"},
+  {"from":"P3","to":"P4","type":"ASSOCIATED_WITH","confidence":0.79,"sourceReference":"DOC-002","observedAt":"2026-08-15T15:45:00Z"},
+  {"from":"P1","to":"V1","type":"USES","confidence":0.87,"sourceReference":"SURV-003","observedAt":"2026-08-15T17:20:00Z"},
+  {"from":"V1","to":"L1","type":"LOCATED_AT","confidence":0.90,"sourceReference":"SURV-003","observedAt":"2026-08-15T17:28:00Z"},
+  {"from":"P1","to":"O1","type":"ASSOCIATED_WITH","confidence":0.76,"sourceReference":"DOC-003","observedAt":"2026-08-16T09:00:00Z"},
+  {"from":"P4","to":"O1","type":"WORKS_FOR","confidence":0.84,"sourceReference":"DOC-003","observedAt":"2026-08-16T09:05:00Z"},
+  {"from":"P2","to":"B1","type":"ASSOCIATED_WITH","confidence":0.73,"sourceReference":"FIN-001","observedAt":"2026-08-17T13:22:00Z"},
+  {"from":"B1","to":"O1","type":"ASSOCIATED_WITH","confidence":0.71,"sourceReference":"FIN-002","observedAt":"2026-08-17T13:40:00Z"},
+  {"from":"P3","to":"L1","type":"VISITED","confidence":0.82,"sourceReference":"SURV-004","observedAt":"2026-08-18T18:10:00Z"}
+]

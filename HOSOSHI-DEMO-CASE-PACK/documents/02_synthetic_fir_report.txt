@@ -1,0 +1,14 @@
+SYNTHETIC FIR / INCIDENT REPORT
+Document ID: DOC-001
+Case: CNI-2026-0091
+
+This is a fictional report created for software testing.
+
+Incident date: 2026-08-14
+Location: Indore Central Depot
+
+Narrative:
+Synthetic records indicate that Arjun Mehta and Nikhil Rao exchanged communications during the review period. A later record links Nikhil Rao to a contact number also used by Sara Khan. These links are source-derived observations only.
+
+Source quality note:
+This report is intentionally synthetic. No assertion of criminal conduct should be made from it.

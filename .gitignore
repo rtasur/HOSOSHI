@@ -1,0 +1,39 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/tsconfig.*.tsbuildinfo
+
+# Backend
+backend/target/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs / local data
+*.log
+*.tmp
+*.bak
+postgres_data/
+neo4j_data/
+neo4j_logs/
+evidence_data/
+data/uploads/
+
+# Local test artifacts
+verify-evidence.txt
+test-evidence.txt
+
+# Local secrets / dumps
+*.dump
+*.backup
+*.sql.gz

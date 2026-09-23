@@ -1,0 +1,20 @@
+HOSOSHI SYNTHETIC CASE BRIEF
+Case: CNI-2026-0091
+Operation: Silent Harbor
+
+Purpose:
+This document is a fictional training record used only to test HOSOSHI case management and intelligence workflows.
+
+Scenario summary:
+Analysts are reviewing a synthetic network involving several people, a shared contact number, a vehicle, a business entity, a location, and a test financial identifier. The relationships are intentionally noisy and should be treated as leads requiring human review.
+
+Expected workflow:
+1. Register the case.
+2. Assign an investigator, intelligence analyst, and data operator.
+3. Register entities.
+4. Register relationships with source references.
+5. Upload source records and evidence.
+6. Review the timeline and graph.
+7. Produce an investigation report marked DRAFT.
+
+No person or organization described here is real.
