@@ -9,6 +9,9 @@ on:
 jobs:
   build-and-validate:
     runs-on: ubuntu-latest
+    env:
+      JWT_SECRET: "ci-test-jwt-secret-hososhi-2026-abcdefghijklmnopqrstuvwxyz"
+      API_ENCRYPTION_KEY: "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
