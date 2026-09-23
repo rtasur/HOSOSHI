@@ -43,6 +43,9 @@ jobs:
         working-directory: backend
         run: mvn -B test
 
+      - name: Prepare CI environment
+        run: cp .env.example .env
+
       - name: Validate Compose
         run: docker compose config
 
